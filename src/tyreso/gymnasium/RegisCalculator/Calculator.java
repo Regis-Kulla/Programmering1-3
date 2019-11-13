@@ -1,4 +1,5 @@
-package tyreso.gymnasium._0_extra_challenges;
+package tyreso.gymnasium.RegisCalculator;
+
 
 /**
  *                          *******************
@@ -49,8 +50,24 @@ package tyreso.gymnasium._0_extra_challenges;
  */
 public class Calculator {
 
-    private int plus(int tal1, int tal2){
+    public int plus(int tal1, int tal2){
         int svar = tal1 + tal2;
         return svar;
     }
+
+    public int minus(int tal1, int tal2){
+        int svar = tal1 - tal2;
+        return svar;
+    }
+
+    public int multiplikation(int tal1, int tal2){
+        int svar = tal1 * tal2;
+        return svar;
+    }
+
+    public int division(int tal1, int tal2){
+        int svar =  tal1 / tal2;
+        return svar;
+    }
+
 }
