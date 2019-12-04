@@ -66,8 +66,13 @@ public class Calculator {
     }
 
     public int division(int tal1, int tal2){
-        int svar =  tal1 / tal2;
+        int svar = tal1 / tal2;
         return svar;
     }
 
+    public double upphojt(double tal1, double tal2){
+        double svar = Math.pow(tal1, tal2);
+        return svar;
+    }
 }
+
